@@ -14,8 +14,6 @@
 - [Model Training](#model-training)
 - [Inference](#inference)
 - [Results Visualization](#results-visualization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 This project implements a deep learning-based cell classification system using YOLOv8. It's designed to detect and classify different types of cells in microscopic images, with particular focus on cytological samples.
