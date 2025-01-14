@@ -20,7 +20,7 @@ This project implements a deep learning-based cell classification system using Y
 
 ## ✨ Features
 - YOLOv8-based cell detection and classification
-- Comprehensive training pipeline with optimized parameters
+- Training pipeline with optimized parameters
 - Inference tools for single images and batch processing
 - Advanced data augmentation techniques
 - Detailed visualization tools for training metrics and results
