@@ -34,11 +34,9 @@ def main():
         inference = CytologiaInference(args.model_path)
         
         if args.image_path:
-            # Single image prediction
             inference.visualize_prediction(args.image_path, save_path="prediction.png")
         
         if args.test_csv and args.test_dir:
-            # Generate submission
             submission_df = inference.generate_submission(args.test_csv, args.test_dir)
             submission_df.to_csv('submission.csv', index=False)
             print("Submission file generated: submission.csv")
