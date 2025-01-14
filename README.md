@@ -128,3 +128,10 @@ Available visualization tools:
 - Confusion matrix
 - Prediction grid visualization
 - Class distribution analysis
+
+## Example Inference
+```python
+python main.py --mode predict --model_path best.pt --image_path inference.jpg
+```
+![inference](https://github.com/user-attachments/assets/654081b6-6d53-4492-aa2d-ebb186558808)
+![prediction](https://github.com/user-attachments/assets/1e158714-ed77-4e66-867d-675b15e85311)
